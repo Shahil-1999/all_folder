@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main i {
+    color: #009688;
+
+
+}
+
+.main {
+    display: flex;
+    margin: 27px;
+}
+
+.left {
+
+    width: 30%;
+    margin: 13px 17px;
+}
+
+.left-main i {
+    padding: 2px 13px;
+}
+
+.image h2 {
+    position: relative;
+    top: 223px;
+    left: 20px;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.image {
+
+    height: 320px;
+    background-image: url('/img/avatar_hat.jpg');
+    background-repeat: no-repeat;
+    padding: 0;
+
+}
+
+.skills b {
+    color: #757575;
+    font-weight: 100px;
+
+}
+
+.skills i {
+    padding: 2px 7px;
+
+}
+
+.right-up {
+    margin: 16px 0px;
+}
+
+.right-up,
+.right-down,
+.left {
+
+    box-shadow:  4px 4px 10px grey,-4px -4px 10px grey;
+    
+
+}
+.left-main,.right-down,.right-up{
+    padding: 2px 17px;
+}
+
+.right-side .exp {
+    padding: 2px 26px;
+
+}
+
+.right-side {
+    width: 60%;
+}
+
+
+.right-up,
+.right-down {
+    background-color: white;
+}
+
+
+.right-up h2,
+.right-up b,
+.right-down h2,
+.right-down b {
+    color: #757575;
+    font-weight: bolder;
+    margin: 16px 2px;
+
+}
+
+.right-up i,
+.right-down i {
+    padding: 2px 13px;
+    font-size: 25px;
+}
+
+button {
+    background-color: #009688;
+    border-radius: 7px;
+    border: none;
+    color: white;
+}
+
+.front,
+.web,
+.graphic {
+    padding: 19px 0px;
+}
+
+.line-bar,
+.ill-bar,
+.photo-bar,
+.media-bar {
+
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    background-color: #009688;
+
+}
+
+.line-bar {
+
+    background: linear-gradient(to right, #009688 90%, rgb(165, 155, 155) 10%);
+}
+
+.photo-bar {
+    background: linear-gradient(to right, #009688 80%, rgb(165, 155, 155) 20%);
+
+}
+
+.ill-bar {
+    background: linear-gradient(to right, #009688 75%, rgb(165, 155, 155) 25%);
+
+}
+
+.media-bar {
+    background: linear-gradient(to right, #009688 50%, rgb(165, 155, 155) 50%);
+
+}
+
+.ill-lang {
+    background: linear-gradient(to right, #009688 70%, rgb(165, 155, 155) 30%);
+
+
+}
+
+.photo-lang {
+    background: linear-gradient(to right, #009688 80%, rgb(165, 155, 155) 20%);
+
+
+}
+
+.media-lang {
+    background: linear-gradient(to right, #009688 50%, rgb(165, 155, 155) 50%);
+
+
+}
+
+.ill-lang,
+.photo-lang,
+.media-lang {
+
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+
+}
+
+.date {
+    color: #009688;
+}
+
+.container p,
+.main-skills div,
+.right-up div p,
+.right-down div p {
+    margin: 16px 2px;
+}
+
+.right-up div {
+    margin: 12px 2px;
+}
+
+.right-down div {
+    margin: 4px 0px;
+
+}
+
+.right-up div b,
+.right-down div b {
+    margin: 2px 2px;
+}
+
+
+.adobe p,.photo p,.ill p,.media p{
+    margin: 7px 2px;
+    
+}
+
+footer {
+
+    height: 130px;
+    color: white;
+    background-color: #009688;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.brands {
+    margin: 19px;
+}
+
+.social {
+    padding-top: 16px;
+}
+
+.power {
+    padding-bottom: 5px;
+}
+
+.power a {
+    color: white;
+}

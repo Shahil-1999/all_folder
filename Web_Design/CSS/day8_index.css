@@ -1,0 +1,44 @@
+/* .first{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(21, 15, 199);
+}
+#para{
+    background-color: aquamarine;
+} */
+
+.main{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    
+
+}
+.item{
+    width: 100px;
+    height: 100px;
+    color: white;
+    
+    
+
+}
+#items-1{
+    background-color: brown;
+}
+#items-2{
+    background-color: blue;
+    position: relative;
+    /* left: 25px;
+    top: 25px; */
+
+}
+#items-3{
+    background-color: darkgreen;
+    position: absolute;
+    left: 150px;
+
+}
+#items-4{
+    background-color: violet;
+}

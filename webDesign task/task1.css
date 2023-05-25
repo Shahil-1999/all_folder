@@ -1,0 +1,463 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+
+#navbar {
+  background-color: black;
+  height: 53px;
+  width: auto;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* Navigation Bar: List Styling */
+nav ul {
+  position: relative;
+  top: 20%;
+  display: flex;
+  
+}
+
+.nav-item {
+  /* display: inline-block; */
+
+  font-family: "Segoe UI", Arial, sans-serif;
+  list-style: none;
+}
+
+.nav-link {
+  color: white;
+  padding: 3px 22px;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.dropdown-item {
+  padding: 10px 22px;
+  text-decoration: none;
+  font-size: larger;
+  display: none;
+}
+
+.dropdown:hover .dropdown-item {
+  display: block;
+  background-color: white;
+  color: black;
+}
+
+.dropdown .dropdown-item:hover {
+  color: black;
+  background-color: rgb(170, 155, 155);
+}
+
+.nav-link:hover {
+  color: black;
+  background-color: white;
+}
+
+.dropdown-item {
+  background-color: white;
+  color: black;
+}
+
+.hamburger {
+  display: none;
+}
+
+/* Home Section */
+#home {
+  height: 600px;
+}
+
+#los {
+  display: flex;
+  flex-direction: column;
+  padding: 3px 200px;
+  height: 550px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#los::before {
+  content: "";
+  position: absolute;
+  background: url("ny.jpg") no-repeat center center/cover;
+  height: 642px;
+  width: 100;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  opacity: 0.9;
+  z-index: -1;
+}
+
+#newYork {
+  display: none;
+  flex-direction: column;
+  padding: 3px 200px;
+  height: 550px;
+  justify-content: center;
+  align-items: center;
+}
+
+#newYork::before {
+  content: "";
+  position: absolute;
+  background: url("la.jpg") no-repeat center center/cover;
+  height: 642px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: rgba(78, 82, 65, 0.8);
+  z-index: -1;
+}
+
+#chicago {
+  display: none;
+  flex-direction: column;
+  padding: 3px 200px;
+  height: 550px;
+  justify-content: center;
+  align-items: center;
+}
+
+#chicago::before {
+  content: "";
+  position: absolute;
+  background: url("chicago.jpg") no-repeat center center/cover;
+  height: 642px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: rgba(78, 82, 65, 0.7);
+  z-index: -1;
+}
+
+.txt {
+  color: white;
+}
+
+.pos,
+.pad {
+  position: relative;
+  top: 34%;
+}
+
+/* Services Section */
+#services-container,
+#tour_date,
+#contact {
+  width: 60%;
+  /* align-items: center; */
+  margin: auto;
+}
+
+#service-p {
+  text-align: justify;
+  padding: 2%;
+}
+
+.img p {
+  text-align: center;
+}
+
+#services {
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+#services > p,
+.tour_container > p {
+  color: rgb(170, 155, 155);
+  text-align: center;
+  font-style: italic;
+  font-family: "Lato", sans-serif;
+}
+
+#service-img {
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.img p {
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.img {
+  padding: 5%;
+  text-align: center;
+}
+
+.img img {
+  height: 200px;
+  width: 200px;
+  border-radius: 4px;
+}
+
+/* Tour */
+#tour {
+  background-color: black;
+}
+
+#tour_date {
+  color: white;
+  /* padding-bottom: 5%; */
+}
+
+.tour_container {
+  text-align: center;
+  padding-top: 3%;
+}
+
+.li_pad {
+  list-style: none;
+  padding: 1%;
+  border-bottom: 1px solid rgb(187, 173, 173);
+  color: rgb(154, 133, 133);
+  background-color: white;
+}
+
+#tour_date ul {
+  padding-top: 3%;
+}
+
+.li_pad span {
+  color: white;
+  text-align: center;
+  background-color: red;
+  font-weight: bold;
+  margin-left: 1%;
+  padding: 3px;
+}
+
+#nov {
+  position: absolute;
+  left: 75%;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  width: 22px;
+  border-radius: 50px;
+}
+
+.tour_main {
+  display: flex;
+  padding-top: 3%;
+}
+
+.tour_card img {
+  height: 250px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.tour_card {
+  padding: 1%;
+  width: 272px;
+}
+
+.tour_txt {
+  background-color: white;
+  color: black;
+}
+
+.tour_txt p {
+  padding: 4%;
+}
+
+.btn {
+  margin: 4% 4% 4% 4%;
+  padding: 4%;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+.btn:hover{
+  color: black;
+  background-color: rgb(170, 155, 155);
+}
+
+
+
+
+/* Contact */
+.contact-container {
+  padding-top: 4%;
+  display: flex;
+}
+
+.contact-p {
+  color: rgb(154, 133, 133);
+  text-align: center;
+}
+
+.contact-left {
+  width: 50%;
+  font-size: large;
+}
+
+.contact-left p {
+  padding: 1%;
+}
+
+.form-top {
+  display: flex;
+}
+
+.form-first-half,
+.form-second-half,
+#feedback {
+  margin: 1%;
+}
+
+.first-input {
+  height: 40px;
+  padding-left: 2%;
+}
+
+#feedback {
+  width: 100%;
+}
+
+form button {
+  position: relative;
+  left: 78%;
+  border: none;
+  margin-top: 4%;
+  height: 45px;
+  width: 85px;
+  background-color: black;
+  color: white;
+  font-size: large;
+  font-weight: 500;
+}
+
+/* Map */
+.map img{
+  width: 100%;
+}
+/* footer */
+footer{
+  height: 29vh;
+  text-align: center;
+  color:rgb(103, 89, 89);
+  padding-top: 4%;
+}
+.icon{
+  padding: 2%;
+}
+.icon i{
+  padding: 2px;
+  font-size: x-large;
+}
+.icon i:hover{
+  color: rgb(150, 144, 144);
+}
+.f-txt a{
+  color:rgb(103, 89, 89);
+}
+
+
+/* Media Screen */
+@media screen and (max-width: 1000px) {
+  nav ul li {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 4%;
+    top: 35%;
+  }
+
+  .fa-bars {
+    color: wheat;
+  }
+
+  .show {
+    
+    display: block;
+    
+    
+  }
+  .show ul{
+    position: absolute;
+    color: wheat;
+    width: 10%;
+    left: 75%;
+    top: 65px;
+    background-color: black;
+    display: block;
+
+  }
+  .show .nav-item{
+    margin: 2%;
+    
+  }
+
+  .pad,
+  .pos {
+    display: none;
+  }
+
+  #service-img {
+    flex-direction: column;
+  }
+
+  .img img {
+    width: 100%;
+  }
+
+  .tour_main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tour_card {
+    width: 100%;
+  }
+
+  .contact-container,
+  .form-top {
+    flex-direction: column;
+  }
+
+  .first-input {
+    width: 100%;
+  }
+}
+
+/* Utility Classes */
+.h-primary {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 50px;
+  padding-bottom: 12px;
+}
+
+.pad-bottom {
+  padding-bottom: 8%;
+}
+
+.center {
+  text-align: center;
+  padding-top: 8%;
+}
+
+#contact button:hover {
+  color: black;
+  background-color: rgb(170, 155, 155);
+}

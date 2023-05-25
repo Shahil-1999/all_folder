@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+
+.navbar {
+  display: flex;
+  height: 110px;
+  justify-content: space-between;
+}
+
+#list{
+
+  height: 100%;
+}
+#list ul{
+  display: flex;
+  list-style-type: none;
+  margin: 44px 19px;
+}
+
+#list ul a{
+  text-decoration: none;
+  padding: 16px;
+  font-size: larger;
+  margin: 0px 14px;
+  color: black;
+
+}
+#list ul a:hover{
+  background-color: rgb(58, 124, 200);
+  color: white;
+}
+
+#img_part{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  margin: 0px 120px;
+
+}
+#img_part img{
+  
+height: 70px;
+}
+
+
+
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: none;
+    z-index: 1;
+    top: 72px;
+
+  }
+  #about_icon{
+    position: relative;
+    font-size: 14px;
+    color: grey;
+
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    background-color: white;
+    margin: 5px 14px;
+  }
+  .dropdown-content p{
+    
+    color: black;
+    padding: 15px;
+        
+  }
+  
+  .dropdown-content p:hover{
+    background-color:rgb(98, 160, 231) ;
+    color: white;
+  
+    
+  }
+
+/* SECTION (MAIN) */
+
+  .drone{
+    background: url('/img/drone2.jpg') no-repeat center center/cover;
+    height: 400px;
+    
+  }
+  .drone-text{
+    position: absolute;
+    padding: 4px;
+    top: 375px;
+    left: 175px;
+    color: white;
+    font-size: 25px;
+    font-family: 'La Belle Aurore', cursive;
+    /* line-height: 10px; */
+    /* letter-spacing: 10px; */
+
+  }
+
+  /* SECTION(SERVICE) */
+.services{
+  position: relative;
+  margin: 29px auto;
+  width: 75%;
+}
+
+.services h1{
+  text-align: center;
+  font-size: 45px;
+}
+.services .box h1{
+  text-align: center;
+  font-size: 24px;
+}
+
+.service.headings{
+  font-size: 43px;
+}
+
+.services p{
+  margin-top: 24px;
+  text-align: center;
+  color: rgb(113, 110, 110);
+
+}
+
+.box {
+  
+    background-color: rgb(255, 246, 246);
+    border: 1px solid rgb(255, 246, 246);;
+    display: inline-block;
+    width: 248px;
+    margin: 10px;
+}
+
+.box:hover{
+  border: 1px solid rgb(58, 124, 200);
+  background-color: white;
+}
+
+.service-button{
+  margin: 20px 73px;
+  height: 42px;
+  padding: 10px;
+  background-color: rgb(39, 103, 176);
+  color: white;
+  border: none;
+}
+.service-button:hover {
+  border: 1px solid rgb(58, 124, 200);
+  background-color: white;
+  color: rgb(39, 103, 176);
+  cursor: pointer;
+}
+
+  .box i{
+    margin: 23px 99px;
+    height: 59px;
+    font-size: 51px;
+    
+  }
+
+
+/* SECTION(TEAM) */
+.team{
+  height: 404px;
+  background-color: rgb(39, 103, 176);
+}
+#team_image{
+  display: inline-block;
+  width: 50%;
+}
+#team_image img{
+
+  position: relative;
+  height: 274px;
+  left: 185px;
+  top: 67px;
+
+}
+
+.team_des{
+  width: 39%;
+  position: relative;
+  color:white;
+  left: 48%;
+  bottom: 49%;
+
+}
+
+.team_des h1{
+  font-size: xx-large;
+    
+}
+
+.team_des p{
+  margin-top: 18px;
+}
+
+/* SECTION(OUR CLIENTS) */
+
+.our-clients{
+  height: 266px;
+  width: 82%;
+  margin: auto;
+}
+.our-clients h1{
+  margin: 60px 0px;
+
+}
+ /* SECTION(FOOTER) */
+
+.footer{
+
+  display: flex;
+
+  background-color: black;
+  height: 250px;
+  justify-content: center;
+}
+
+
+
+.footer-box{
+  
+
+  margin: 35px 49px;
+  width: 262px;
+
+  
+}
+.footer-box h3{
+  color: white;
+}
+
+.footer-box p, .footer-box li a, .footer-box ul{
+  color: rgb(191, 172, 172);
+  text-decoration: none;
+  margin-top: 13px;
+}
+.footer-box li {
+  list-style-type: none;
+
+}
+
+.footer-box li a:hover{
+  color: white;
+  cursor: pointer;
+}
+
+#footer-box2, #footer-box3, #footer-box4{
+  margin: 35px 15px;
+
+}
+
+#footer-box2 li , #footer-box3 li , #footer-box4 li {
+  margin: 11px 2px;
+}
+
+
+#footer-box2{
+  padding-left: 15px;
+}
+
+
+
+/* SECTION(COPYRIGHT) */
+#copyright{
+  display: flex;
+  background-color: rgb(34, 30, 30);
+  height: 80px;
+  justify-content: space-between;
+}
+#copyright_txt{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 138px;
+}
+
+
+.social_media{
+  display: flex;
+  margin-right: 103px;
+}
+.social_media i{
+  margin: 5px;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}

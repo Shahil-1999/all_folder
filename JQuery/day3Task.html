@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="day3Task.css" />
+    <title>Task</title>
+  </head>
+  <body>
+    <form action="/sucess.html">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputFUllName">Full Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputFulltName"
+            autocomplete="off"
+            placeholder="full Name"
+          />
+          <div id="u_err"> </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="inputEmail4"
+            autocomplete="off"
+            placeholder="Email"
+          />
+          <div id="e_err"> </div>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="inputPassword4"
+            autocomplete="off"
+            placeholder="Password"
+          />
+          <small id="passwordHelpBlock" class="form-text text-muted">
+            Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+          </small>
+          <div id="p_err"> </div>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputC_Password4">Confirm Password</label>
+            <input
+              type="C_password"
+              class="form-control"
+              id="inputC_Password4"
+              autocomplete="off"
+              placeholder="ConfirmPassword"
+            />
+            <div id="c_err"> </div>
+          </div>
+
+        
+      <div class="btnDiv">
+
+        <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+        <div id="submit_err"> </div>
+
+
+      </div>
+
+    </form>
+    <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117925.34734137497!2d88.27731227470198!3d22.535412195662786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1676016518563!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+
+    <script src="/JS/jQuery.js"></script>
+    <script src="/day3Task.js"></script>
+  </body>
+</html>

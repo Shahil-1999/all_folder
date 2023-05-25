@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.head {
+
+    width: 100%;
+    background: linear-gradient(45deg, #E91E63 -132%, #0c2e8a 100%);
+
+}
+
+.icon {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+
+}
+
+.icon i,
+.li-margin i {
+    padding: 10px;
+    color: #E91E63;
+}
+
+#head {
+    color: #E91E63 !important;
+    font-size: 45px;
+    font-weight: 700;
+    position: relative;
+    left: 170px;
+}
+
+
+#navbar1 ul li a:hover{
+    color: #E91E63 !important;
+}
+
+
+
+
+.nav-content {
+    display: flex;
+    width: 55%;
+    justify-content: space-evenly;
+}
+
+.nav-content p {
+    color: rgb(182, 165, 165);
+    margin: auto;
+
+}
+
+.first {
+    display: flex;
+}
+
+.first i {
+    margin: 0 14px;
+    padding-top: 6px;
+    color: #E91E63;
+
+}
+
+.intro {
+
+
+    background: url('../img/iron-man-drinking-coffee-ne.jpg') no-repeat center center/cover;
+    height: 500px;
+
+
+
+
+}
+
+.intro-text {
+    position: relative;
+    top: 150px;
+    right: 80px;
+}
+
+.intro h1 {
+
+    color: #E91E63;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.intro h2 {
+    font-size: 30px;
+    color: white;
+}
+
+.intro button {
+    width: 173px;
+    padding: 13px;
+    background-color: #0c2e8a;
+    color: white;
+    font-weight: bold;
+    border: none;
+
+}
+
+.intro-position {
+    display: flex;
+    justify-content: end;
+}
+
+
+.intro button:hover {
+    background-color: white;
+    color: #0c2e8a;
+    border: 1px solid #0c2e8a;
+}
+
+.about {
+    margin: 20px 150px;
+}
+
+
+.header-txt {
+    text-align: center;
+    color: #E91E63;
+}
+
+.para {
+    text-align: center;
+}
+
+
+.row img {
+
+    width: 100%;
+}
+
+.content h2 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.content h3 {
+    color: #555;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    font-style: italic;
+}
+
+.content p {
+    line-height: 26px;
+}
+
+.content ul {
+    list-style: none;
+
+}
+
+.li-margin {
+    margin: 10px 0px;
+}
+
+
+.services {
+    padding: 60px 0px 0px 0px;
+    margin: 20px 150px;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.card i {
+    background: linear-gradient(45deg, #E91E63 0%, #405ece 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin: 23px auto;
+    height: 59px;
+    font-size: 51px;
+
+}
+
+.card-text,
+.card-title {
+    text-align: center;
+
+}
+
+.col {
+    text-align: -webkit-center;
+    margin: 12px;
+}
+
+
+.clients-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.portfolio {
+    background: linear-gradient(45deg, #E91E63 -132%, #0c2e8a 100%);
+    padding: 90px 50px;
+    color: #ffffff9c;
+}
+
+.testimonial-card .card-body {
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(246, 241, 241);
+    height: 280px;
+}
+
+.testimonial-card .card-body span {
+    color: rgb(182, 165, 165);
+}
+
+.testimonial-card .card,
+.testimonial-card .card-body {
+    border-radius: 30px 30px 0px 30px;
+
+}
+
+
+.get-service {
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    background: #081e5b;
+    color: white;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.button button{
+    height: 64px;
+    border-radius: 3px;
+    width: 132px;
+    border: 3px solid white;
+    background-color: #081e5b;
+    font-weight: bolder;
+    color: white;
+
+    }
+
+.button button:hover{
+    background-color: #E91E63;
+
+}
+
+.pic img {
+
+    border-bottom: 4px solid #E91E63;
+    margin-bottom: 10px;
+}
+
+.pic {
+    text-align: center;
+
+}
+
+.pic h4,
+.pic span {
+    color: #E91E63;
+
+}
+
+.social-site {
+    margin: 13px 0px;
+
+}
+
+.social-site i {
+    padding: 5px;
+    border: 1px solid rgb(218, 209, 209);
+    width: 44px;
+}
+
+.main-contact {
+    margin-top: 46px;
+    display: flex;
+}
+
+.contact-info {
+    width: 50%;
+}
+
+.add-info {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    color: #999;
+}
+
+.add-info i {
+    padding: 10px;
+}
+
+.contact-mar address,
+.contact-mar span {
+    margin-left: 37px;
+}
+
+.contact-mar i {
+    color: #E91E63;
+
+}
+
+.contact-mar {
+    margin: 20px 0px;
+}
+
+.form input,
+.form textarea {
+    display: flex;
+    flex-direction: column;
+    margin: 19px 0px;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+
+.form textarea {
+    height: 200px;
+}
+
+#message {
+    height: 200px;
+}
+
+#send {
+    width: 100px;
+    border-radius: 3px;
+    height: 52px;
+    color: white;
+    background-color: #E91E63;
+    position: relative;
+    left: 83%;
+    border: none;
+
+}
+
+#send:hover {
+    background-color: #081e5b;
+    color: white;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: #081e5b;
+}
+
+footer div {
+    color: white;
+    margin: 10px;
+}
+
+footer div span {
+    color: #E91E63;
+}

@@ -1,0 +1,124 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+#navbar{
+
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: black;
+    
+}
+.navmain{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+    border-radius: 27px;
+    width: 80px;
+}
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+   
+    display: flex;
+
+    
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 25px;
+}
+
+#navbar ul li a{
+
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#navbar ul li a:hover{
+    color: white;
+    background-color:rgb(37, 37, 119) ;
+    
+}
+
+
+/* Banner css */
+#banner{
+    position: relative;
+    background: url('/img/banner-bg.png') no-repeat center center/cover;
+    height: 80vh;
+    top:0px;
+    left:0px;
+    width: 100%;
+
+
+}
+
+.txt{
+    position: absolute;
+    bottom: 200px;
+    top: 40%;
+    left: 20%;
+
+    
+
+}
+.pad{
+    padding: 5px;
+}
+.main{
+    color: white;
+    font-weight:900;
+    font-size: 50px;
+    letter-spacing: 8px;
+
+}
+.btn{
+    height: 50px;
+    width: 90px;
+}
+.btn button:hover{
+    color: white;
+    background-color:rgb(37, 37, 119) ;
+    cursor: pointer;
+}
+.btn button{
+    height: 50px;
+    width: 120px;
+    border-radius: 27px;
+    font-weight: bolder;
+    font-size:medium;
+}
+.main1{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

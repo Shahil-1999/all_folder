@@ -1,0 +1,35 @@
+.main{
+    height: 90%;
+    margin: auto;
+    border: 2px solid black;
+}
+.items{
+    height: 150px;
+    display: inline-block;
+    padding: 5%;
+
+}
+#box-1{
+    
+    color: blue;
+
+}
+#box-2{
+    color: brown;
+}
+#box-3{
+    color: chartreuse;
+    
+}
+#box-4{
+    color: turquoise;
+    
+}
+@media screen and (max-width:1000px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+}

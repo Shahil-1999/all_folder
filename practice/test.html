@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        background-color: burlywood;
+        width: 100vw;
+        height: 100vh;
+        /* position: relative; */
+        /* display: grid;
+        place-items: center; */
+        display: flex;
+        justify-content: center;
+        
+    }
+    .content{
+        background-color: brown;
+        height: 60vh;
+        width: 60vw;
+        /* position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+        
+    }
+    input{
+        width: 50vw;
+        padding: 2%;
+    }
+    
+</style>
+<body>
+    <div class="container">
+        <div class="content">
+            <input type="text" name="name" id="name" placeholder="Enter name">
+            <input type="text" name="pwd" id="pwd" placeholder="Enter password">
+            <input type="text" name="cpwd" id="cpwd" placeholder="Confirm password">
+            <input type="submit" value="Submit Form" id="submit">
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        
+        $(document).ready(function(){
+            let name_no_err = true;
+            let pwd_no_err = true;
+            let cpwd_no_err = true;
+
+            function nameCheck() {
+                let nerr = $("#name").val();
+                if(nerr.length == ""){
+                    alert("username is missing")
+                    name_no_err = false;
+                    return name_no_err
+                }else{
+                    name_no_err = true;
+                    return name_no_err
+                } 
+            }
+
+            function pwdCheck() {
+                let perr = $("#pwd").val();
+                if(perr.length == ""){
+                    alert("password is missing")
+                    pwd_no_err = false;
+                    return pwd_no_err
+                }else{
+                    pwd_no_err = true;
+                    return pwd_no_err
+                } 
+            }
+
+            function cPwdCheck() {
+                let cperr = $("#cpwd").val();
+                let perr = $("#pwd").val();
+                if(cperr!= perr){
+                    alert("Password Missmatched")
+                    cpwd_no_err = false;
+                    return cpwd_no_err
+                }else{
+                    cpwd_no_err = true;
+                    return cpwd_no_err
+                } 
+            }
+
+            $("#submit").click(function(){
+                const n = nameCheck();
+                const p = pwdCheck();
+                const cp = cPwdCheck();
+                if(n == true && p == true && cp == true){
+                    alert("Login Sucess")
+                }
+
+            
+        })
+    })
+
+    </script>
+    
+</body>
+</html>

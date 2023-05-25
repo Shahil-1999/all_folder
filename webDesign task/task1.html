@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="task1.css" />
+    <title>task</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div id="logo"></div>
+      <ul>
+        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#band" class="nav-link">Band</a></li>
+        <li class="nav-item"><a href="#tour" class="nav-link">Tour</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        
+        <li class="nav-item dropdown" id="more"><a href="#more" class="nav-link">More</a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">Merchandise</a>
+              <a href="#" class="dropdown-item">Extras</a>
+              <a href="#" class="dropdown-item">Media</a>
+            </div>
+            
+        </li>
+          
+
+        </div>
+        
+      </ul>
+      <p class="hamburger"><i class="fa-solid fa-bars"></i></p>
+    </nav>
+    <section id="home">
+      <div id="los" class="txt">
+        <h1 class="h-primary pos">Los Angeles</h1>
+        <p class="pad">We had the best time playing at Venice Beach!</p>
+      </div>
+      <div id="chicago" class="txt">
+        <h1 class="h-primary pos">Chicago</h1>
+        <p class="pad pos">Thank you, Chicago - A night we won't forget.</p>
+      </div>
+      <div id="newYork" class="txt">
+        <h1 class="h-primary pos">New York</h1>
+        <p class="pad pos">The atmosphere in New York is lorem ipsum.</p>
+      </div>
+    </section>
+
+    <section id="services-container">
+        <div id="services" class="pad-bottom">
+          <h1 class="h-primary center">THE BAND</h1>
+          
+          <p>We love music</p>
+          
+        <div id="service-p">
+          <p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>  
+        </div>
+        <div id="service-img">
+          <div class="img">
+            <p>Name</p>
+            <img src="bandmember.jpg" alt="" srcset="">
+          </div>
+          <div class="img">
+            <p>Name</p>
+            <img src="bandmember.jpg" alt="" srcset="">
+          </div>
+          <div class="img">
+            <p>Name</p>
+            <img src="bandmember.jpg" alt="" srcset="">
+          </div>
+        </div>
+      </div>
+      
+  </section>
+
+  <section id="tour">
+    <div id="tour_date" class="pad-bottom">
+      <div class="tour_container">
+        <h1 class="h-primary center">TOUR DATES</h1>
+        <p>Remember to book your tickets!</p>
+      </div>
+      <ul>
+        <li class="li_pad">September
+          <span>Sold out</span>
+        </li>
+
+        <li class="li_pad">October
+          <span>Sold out</span>
+        </li>
+        <li class="li_pad">November
+          <span id="nov">3</span>
+        </li>
+        
+      </ul>
+      <div class="tour_main">
+        <div class="tour_card">
+          <img src="newyork.jpg" alt="New York">
+          <div class="tour_txt">
+            <p><b>New York</b></p>
+            <p style="color:rgb(154, 133, 133) ;">Fri 27 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="btn">Buy Tickets</button>
+          </div>
+        </div> 
+
+        <div class="tour_card">
+          <img src="paris.jpg" alt="Paris">
+          <div class="tour_txt">
+            <p><b>Paris</b></p>
+            <p style="color:rgb(154, 133, 133) ;">Sat 28 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="btn">Buy Tickets</button>
+          </div>
+        </div>
+
+        <div class="tour_card">
+          <img src="sanfran.jpg" alt="San Francisco">
+          <div class="tour_txt">
+            <p><b>San Francisco</b></p>
+            <p style="color:rgb(154, 133, 133) ;">Sun 29 Nov 2016</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="btn">Buy Tickets</button>
+          </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="pad-bottom">
+    <h2 class="h-primary center">CONTACT</h2>
+    <P class="contact-p">Fan? Drop a note!</P>
+    <div class="contact-container">
+      <div class="contact-left">
+        <p><i class="fa fa-map-marker" style="width:30px"></i><span> Chicago, US</span></p>
+        <p><i class="fa fa-phone" style="width:30px"></i><span>  Phone: +00 151515</span></p>
+        <p><i class="fa fa-envelope" style="width:30px"></i><span>  Email: mail@mail.com</span></p>
+
+      </div>
+      <div class="contact-right">
+        <form action="">
+          <div class="form-top">
+            <div class="form-first-half">
+              <input type="text" name="" class="first-input" placeholder="NAME">
+            </div>
+            <div class="form-second-half">
+              <input type="text" name="" class="first-input" placeholder="EMAIL">
+
+            </div>
+          </div>
+          <input type="text" name="" id="feedback" class="first-input" placeholder="MESSAGE">
+          <button>Send</button>
+          
+        </form>
+      </div> 
+    </div>
+  </section>
+  <section id="map">
+    <div class="map">
+      <img src="/map.jpg" alt="Map Image">
+
+    </div>
+    
+  </section>
+  <footer>
+    <div class="icon">
+      <i class="fa-brands fa-square-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-snapchat"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+      <i class="fa-brands fa-linkedin-in"></i>
+
+
+    </div>
+    <div class="f-txt">
+      <span>Powered by </span><a href="">w3.css</a>
+    </div>
+  </footer>
+
+    
+
+    <script
+      src="https://kit.fontawesome.com/e097feabdb.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/e097feabdb.js" crossorigin="anonymous"></script>
+    <script src="test1.js"></script>
+  </body>
+</html>

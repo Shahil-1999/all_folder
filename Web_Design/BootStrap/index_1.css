@@ -1,0 +1,26 @@
+.btn-outline-secondary{
+    padding: 10px;
+    margin: 10px;
+}
+.navbar{
+    position: sticky;
+}
+.card, .carousel1 {
+    margin-top: 7px;
+}
+.carousel-item img{
+    height: 75vh;
+    
+}
+.carousel-caption, .sr-only{
+    color: black;
+
+}
+.col{
+    margin-top: 10px;
+    background-color: grey;
+    border: 2px solid black;
+}
+#form{
+    margin-top: 20px;
+}

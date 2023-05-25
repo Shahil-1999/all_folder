@@ -1,0 +1,198 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin-left: 11%;
+}
+
+#logo img{
+    width: 7rem;
+   
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    padding-left: 8%;
+    
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    border-radius: 20px;
+    color: #ff5518;
+}
+
+#home{
+    height: 490px;
+}
+
+#home::before{ 
+    content: "";
+    position: absolute;
+    background: url('/banner.jpg') no-repeat center center/cover;
+    height: 613px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+}
+
+
+.home-container{
+    width: 50%;
+    position: absolute;
+    margin-top: 10%;
+    left: 20%;
+    
+}
+.home-countdown{
+    display: flex;
+}
+.numbers{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    font-size: 38px;
+    font-weight: 100;
+    line-height: 1;
+    text-align: center;
+    color: #ffffff;
+}
+.numbers span{
+    margin-top: 3px;
+    font-size: 21px;
+    line-height: 23px;
+    text-align: center;
+    background: rgb(20, 13, 13);
+    border-radius: 5px;
+    height: 24px;
+    
+}
+.home-content h1,.home-content p{
+    margin-left: 2%;
+}
+.home-content h1{
+    color: #ffffff;
+    font-size: 82px;
+    font-weight: 700;
+    font-family: 'Maven Pro', sans-serif;
+}
+.home-content p{
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+#events{
+    background-color: black;
+    height: 59vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.events-container{
+    color: #ffffff;
+    width: 50%;
+    text-align: center;
+}
+.events-container h3{
+    margin-bottom: 4%;
+    font-size: 35px;
+    font-weight: bold;
+}
+.events-container button{
+    height: 48px;
+    width: 139px;
+    margin-top: 20px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.events-container button:hover{
+    background-color: #ff5518;
+    
+}
+
+
+/* Utility Classes */
+.h-primary{
+
+    font-size: 3.8rem;
+    padding: 12px;
+    position: relative; /*text ko navbar ke andar dalne ke liye*/
+    z-index: -1;
+}
+
+.h-secondary{
+
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color:rgb(197, 147, 53);
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color:brown;
+}
+
+.center{
+    text-align: center;
+}

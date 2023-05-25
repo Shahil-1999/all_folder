@@ -1,0 +1,7 @@
+div{
+    height: 50vh;
+    width: 50%;
+    background-image: linear-gradient(to top, red ,green, yellow);
+    border: 2px solid black;
+    
+}

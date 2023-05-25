@@ -1,0 +1,13 @@
+.container{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+
+    /* overflow: visible; default */
+    /* overflow: auto;  provide side scroll bar */
+    /* overflow: hidden; hide rest of the words */
+    overflow: scroll; /*provide side as well as bottom scroll bar*/
+
+}
+

@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+
+}
+
+#navbar1 ul li{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#navbar1 ul li a {
+    color: black;
+    font-size: large;
+}
+
+#navbar1 ul li a:hover {
+    border-bottom: 4px solid black;
+
+}
+
+
+
+
+.home-content {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    height: 73vh;
+
+}
+
+.home-content h1 {
+    font-size: 60px;
+}
+
+.home-content p {
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.home-img img {
+    height: 73vh;
+
+
+}
+
+.lower {
+
+    background: #2561a0;
+    height: auto;
+    padding: 2%;
+}
+
+
+.left {
+    color: white;
+}
+
+.p1 h5{
+    text-align: center;
+}
+
+
+.button {
+    width: 120px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.job{
+    display: flex;
+    align-items: center;
+    padding: 1%;
+}
+.job p{
+    color: #6c757d;
+}
+
+.my-skills,.portfolio{
+    padding-top: 13%;
+    padding-bottom: 7%;
+    background-color: #e4edf3 !important;
+  
+}
+.txt{
+    text-align: center;
+}
+.skill-pad{
+    padding-top: 5%;
+}
+.card-text,
+.card-title {
+    text-align: center;
+    
+
+}
+.card-body p, .exp-timeline p{
+    color: #6c757d;
+}
+.card i{
+    color: #2561a0;
+    margin: 23px auto;
+    height: 59px;
+    font-size: 51px;
+}
+.card{
+    border: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 10%;
+}
+
+.experience{
+    padding-top: 13%;
+    padding-bottom: 7%;
+    height: auto;
+
+}
+.exp-cont{
+    padding-top: 8%;
+
+}
+.exp-txt,.portfolio-txt,.client-txt{
+    text-align: center;
+
+}
+
+.exp-img{
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.exp-timeline ul li{
+    list-style: none;
+
+}
+.exp-timeline i{
+    padding-left: 5px;
+}
+.exp-timeline ul li{
+    padding-top: 6%;
+}
+.exp-timeline ul li h5{
+    display: inline;
+    padding-left: 30px;
+}
+.exp-timeline ul li div{
+    display: block;
+    padding-left: 52px;
+}
+.exp-timeline ul li p{
+    padding-top: 1%;
+    padding-left: 30px;
+}
+
+.portfolio-nav ul li{
+    list-style: none;
+    padding: 2%;
+    
+}
+.portfolio-nav ul li a{
+    color: black;
+    text-decoration: none;
+    
+}
+.portfolio-nav ul li a:hover{
+    color: #6c757d;
+}
+.portfolio-nav ul{
+    display: flex;
+    justify-content: center;
+    
+}
+.port-img img{
+    height: auto;
+    width: 100%;
+}
+
+.client-txt{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    
+}
+#grid{
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 8%;
+}
+.contact{
+    text-align: center;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    background-color: #e4edf3 !important;
+}
+.contact-txt h1,.contact-txt p{
+    padding: 2%;
+}
+.btn input{
+    width: 178px;
+    height: 42px;
+    border: none;
+    background-color: #2561a0;
+    border-radius: 20px;
+    color: white;
+}
+.footer{
+    padding: 4%;
+    background-color: #2561a0;
+    
+}
+.footer p{
+    color: white;
+}
+.icon{
+    text-align: end;
+    margin-top: 30px;
+
+    
+}
+.icon i{
+    padding: 5px;
+}

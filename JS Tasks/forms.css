@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient( to top right, rgb(197, 127, 127), rgb(5, 67, 5), rgb(216, 102, 45));
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.secondary-container{
+    display: flex;
+    width: 50%;
+    height: 50vh;
+
+}
+
+.input-feilds{
+    
+    display: flex;
+    background: radial-gradient(rgb(108, 83, 83), rgb(93, 107, 102));
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    border-radius: 6px 0px 0px 6px;
+    
+}
+.feild{
+    font-size: larger;
+    margin-left: 10px;
+}
+input{
+    position: relative;
+    left: 21px;
+    background: none;
+    border: none;
+    border-bottom: 4px solid black;
+}
+#name,#mail{
+    width: 72%;
+}
+
+#password{
+    width: 65%;
+}
+#number{
+    width: 51%;
+}
+.btn{
+    height: 42px;
+    width: 80px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: burlywood;
+    border-radius: 10px;
+    /* text-indent: 0px; */
+}
+.button{
+    margin: 0px auto;  
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: burlywood;
+}
+
+#images{
+    width: 50%;
+    background: url("IMG-20221229-WA0001.jpg") no-repeat center center/cover;
+    border-radius: 0px 6px 6px 0px;
+}
+#images:hover{
+    background: url("nature.jpg") no-repeat center center/cover;
+}
+#error1{
+    color: red;
+}

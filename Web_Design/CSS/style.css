@@ -1,0 +1,66 @@
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-image: linear-gradient(to left, rgb(222, 129, 129), rgb(132, 214, 132), rgb(233, 233, 173)); towards left
+    background-image: linear-gradient(to right, rgb(222, 129, 129), rgb(132, 214, 132), rgb(233, 233, 173)); towards left
+    background-image: linear-gradient(to top, rgb(222, 129, 129), rgb(132, 214, 132), rgb(233, 233, 173)); towards left
+    background-image: linear-gradient(to bottom, rgb(222, 129, 129), rgb(132, 214, 132), rgb(233, 233, 173)); towards left
+    background-image: linear-gradient(to top left, rgb(222, 129, 129), rgb(132, 214, 132), rgb(233, 233, 173)); towards left
+    background-image: linear-gradient(to top right, rgb(222, 129, 129), rgb(132, 214, 132), rgb(233, 233, 173)); towards left
+    background-image: linear-gradient(to top top, rgb(222, 129, 129), rgb(132, 214, 132), rgb(233, 233, 173)); towards left
+    background-image: linear-gradient(to top bottom, rgb(222, 129, 129), rgb(132, 214, 132), rgb(233, 233, 173)); towards left */
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+
+
+/* Element Selector */
+/* body{
+    background-color: rgb(99, 146, 146);
+}
+div{
+    background-color: rgb(234, 134, 20);
+} */
+
+/* Group Selector */
+ /* h1, h3{
+   background-color: burlywood;
+    color: brown;
+ } */
+
+ /* class selector */
+ .heading{
+    
+    color: red;
+    background-color: aqua;
+ }
+
+ .div1{
+    width: 100%;
+    height: 300px;
+    background-image: radial-gradient(blue 10%, cyan 40%, red);
+ }
+
+ .image{
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 500px;
+    background-size: 250px 300px;
+    background-image: url('https://chewswiselyalabama.com/wp-content/uploads/2021/01/GettyImages-1208790364-scaled-1200x630.jpg');
+    /* background: url('../img/download.jpg'); */
+ }
+ .margin{
+    border: 2px solid red;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+
+ }

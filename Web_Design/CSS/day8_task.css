@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+
+  #logo {
+    height: 55px;
+    width: 140px;
+    border-radius: 50px;
+    margin-left: 17px;
+    margin-top: 7px;
+    padding: 20px;
+  }
+
+  #list {
+    float: right;
+  }
+
+  ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px;
+    margin-right: 29px;
+    margin: 24px;
+  }
+
+  .navbar {
+
+    position: relative;
+    background-color: rgb(192, 192, 192);
+    height: 110px;
+    width: 100%;
+  }
+
+  #web {
+    display: inline-block;
+    margin-top: 41px;
+    color: rgb(20, 172, 55);
+  }
+
+  #img_part {
+    width: 10%;
+    float: left;
+    font-size: 20px;
+    padding: 0px 22px;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(193, 91, 36);
+    font-size: large;
+  }
+
+  a:hover {
+    border-bottom: 2px solid black;
+    color: black;
+  }
+
+  .box {
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 15px 88px;
+    border-radius: 28px;
+    background-image: linear-gradient(
+      to top right,
+      orange,
+      pink,
+      rgb(201, 201, 97)
+    );
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 16%;
+  }
+
+  .home_logo {
+    height: 55px;
+    width: 50px;
+    display: block;
+    margin: 8px auto;
+    border-radius: 50px;
+  }
+
+  .container { 
+    background-image: radial-gradient(rgb(82, 82, 151), rgb(60, 121, 60));
+
+  }
+
+  .headings {
+    text-align: center;
+    font-size: 36px;
+    padding-top: 25px;
+  }
+
+  .about{
+    height: 510px;
+    width: 590px;
+    margin: auto;  
+  }
+
+  .image{
+    width: 50%;
+    height: 400px;
+    float: left; 
+    
+  }
+
+  .image img{
+    height: 400px;
+    width: 100%;
+  }
+
+  .para{
+    width: 45%;
+    height: 400px;
+    float: right;
+    border: 2px solid brown;
+    border-radius: 5px;
+    padding: 11px;
+    background-color: rgb(255, 255, 255);
+    text-align: justify; 
+  }
+
+  .about h1{
+    text-align: center;
+    margin: 20px 0px;
+  }
+
+  #contact{
+  background: url('/img/bg1.jpg') no-repeat center center/cover;
+  margin-top: 5px;
+  }
+
+  #contact-box{
+    margin-top: 15px;
+    padding: 12px;
+  }
+
+  #contact-box input, 
+  #contact-box textarea{
+  width: 100%;
+  padding: 5px;
+  border-radius: 9px;
+  font-size: 18px;
+  }
+
+  #contact-box form{
+    width: 46%;
+  font-size: large;
+  margin: auto;
+  }
+
+  .h-primary{
+      
+      font-size: large;
+      padding: 12px;
+  }
+  .submit{
+    width: 150px;
+    border-radius: 10px;
+    margin: 10px auto;
+
+  }
+  #contact-submit:hover{
+    cursor: pointer;
+    background-color: burlywood;
+  }

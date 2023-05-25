@@ -1,0 +1,56 @@
+.main{
+    height: 90%;
+    margin: auto;
+    border: 2px solid black;
+}
+.items{
+    height: 150px;
+    display: none;
+
+}
+#box-1{
+    display: block;
+    color: blue;
+
+}
+#box-2{
+    color: brown;
+}
+#box-3{
+    color: chartreuse;
+    
+}
+#box-4{
+    color: turquoise;
+    
+}
+@media screen and (max-width:1000px) {
+    #box-2{
+        display: block;
+        flex-direction: row-reverse;
+    }
+    #box-1{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:800px){
+    #box-3{
+        display: block;
+        
+    }
+    #box-2{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:500px){
+    #box-4{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    #box-3{
+        display: none;
+    }
+    
+}

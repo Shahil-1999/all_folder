@@ -1,0 +1,112 @@
+ /* CSS Reset */
+
+ * {
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+     margin: 0;
+     padding: 0;
+ }
+ .universal_mp{
+    margin: 63px 191px;
+    padding: 10px;
+
+}
+
+
+ #navbar {
+     background-color: white;
+     display: flex;
+     align-items: center;
+     position: sticky;
+     top: 0;
+     z-index: 1;
+     justify-content: space-between;
+     box-shadow: 0px 2px 10px grey;
+ }
+
+ #navbar ul li {
+     list-style: none;
+     font-size: medium;
+ }
+
+ #navbar ul li a {
+    color: rgb(24, 23, 23);
+    display: block;
+    padding: 7px;
+    margin: 26px 39px;
+    border-radius: 15px;
+    text-decoration: none;
+
+ }
+
+ #navbar ul li a:hover {
+     color: white;
+     background-color: black;
+ }
+
+ .right ul {
+     display: flex;
+
+ }
+
+ .left{
+    margin: 5px 5px;
+    padding: 5px 5px;
+
+ }
+
+ .home::before{
+    content: "";
+    position: absolute;
+    background-color: grey;
+    height: 85vh;
+    width: 100%;
+    background-image: url('/img/hamburger.jpg');
+    z-index: -1;
+    opacity: 0.5;
+    
+
+ }
+.p{
+    
+    display: flex;
+    height: 85vh;
+    flex-direction: column-reverse;
+    font-size: 50px;
+}
+.p p{
+    margin: 58px 78px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.abt_txt{
+    padding: 4px 42px;
+    line-height: 20px;
+    font-size: large;
+}
+.abt_txt h2, h4{
+    text-align: center;
+}
+.abt_txt h4{
+    position: relative;
+    top: 45px;
+    font-size: large;
+}
+.abt_txt p{
+    position: relative;
+    top: 60px;
+}
+#p2{
+    position: relative;
+    top: 75px;
+    color: gray;
+}
+
+.abt_img img{
+    height: 530px;
+    width: 400px;
+}

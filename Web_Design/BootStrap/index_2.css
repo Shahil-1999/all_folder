@@ -1,0 +1,27 @@
+
+.col-sm{
+    border: 2px solid black;
+   
+}
+.col-sm img{
+    height: 300px;
+    width: 100%;
+}
+#first{
+    background-color: blueviolet;
+}
+#third{
+    background-color: brown;
+}
+#fourth{
+    background-color: aqua;
+
+}
+#fifth{
+    background-color: blue;
+
+}
+#sixth{
+    background-color: burlywood;
+
+}

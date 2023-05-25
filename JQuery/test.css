@@ -1,0 +1,37 @@
+.container{
+    width: 80%;
+    margin: auto;
+    /* border: 2px solid black; */
+    height: 50vh;
+    margin-top: 2%;
+}
+.c-main{
+    display: flex;
+    justify-content: space-between;
+}
+.first a, .second a{
+    color: black;
+    font-weight: 900;
+
+}
+.second i{
+    padding: 0 6px;
+}
+.inpt i{
+    position: absolute;
+    top: 85px;
+    left: 172px;
+    color: red;
+}
+input{
+    border: 2px solid black;
+}
+
+
+#name{
+    padding: 1%;
+    width: 93%;
+    border-radius: 23px;
+    margin-top: 2%;
+    padding: 1% 3%;
+}

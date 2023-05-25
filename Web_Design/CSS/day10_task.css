@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    height: 650px;
+    width: 60%;
+    background-image: url(../img/map.jpg);
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.main {
+    width: 60%;
+    height: 550px;
+    position: relative;
+    z-index: 1;
+}
+
+.up {
+    background-image: url(../img/comp.jpg);
+    background-size: 542px 120px;
+    background-repeat: no-repeat;
+    height: 21%;
+
+
+}
+
+.up h2,
+.up p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    top: 35px;
+}
+.up p{
+    color: rgb(89, 52, 223);
+}
+
+.down {
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 70%;
+}
+
+
+.form-group {
+    position: relative;
+    top: 25px;
+}
+
+input,
+label {
+    margin: 25px 25px;
+    border: none;
+    background: none;
+
+}
+
+input {
+    position: relative;
+    border-bottom: 2px solid grey;
+    width: 200px;
+    left: 110px;
+
+
+}
+
+#phone {
+    position: relative;
+
+    left: 51px;
+
+}
+
+#text {
+    position: relative;
+    left: 94px;
+
+}
+
+#label_phone {
+    position: relative;
+    left: 57px;
+}
+
+#label_message {
+    position: relative;
+    left: 101px;
+}
+
+#label_name,
+#label_email {
+    position: relative;
+    left: 114px;
+}
+
+#submit {
+
+    background-color: rgb(13, 171, 58);
+    position: top;
+    position: relative;
+    top: 30px;
+    left: 235px;
+    border-radius: 15px;
+    padding: 5px;
+    width: 110px;
+    color: white;
+    height: 40px;
+}

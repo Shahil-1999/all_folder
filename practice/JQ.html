@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" name="text" id="user" placeholder="ENTER USERNAME">
+    <input type="text" name="pwd" id="pwd" placeholder="ENTER PASSWORD">
+    <input type="text" name="pwd" id="cnfpwd" placeholder="RENTER PASSWORD">
+    <input type="submit" value="Submit" id="btn">
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+
+
+        no_err_user = true;
+        no_err_pwd = true;
+        no_err_cnfpwd = true;
+
+        function usercheck() {
+            let userval = $("#user").val();
+            if (userval.length == "") {
+                alert("username missing")
+                no_err_user = false
+
+
+            }
+            else {
+                no_err_user = true
+                return no_err_user
+            }
+
+        }
+        function pwdcheck() {
+            let pwdval = $("#pwd").val();
+            if (pwdval.length == "") {
+                alert("Password Missing")
+                no_err_pwd = false
+
+
+            }
+            else {
+                no_err_pwd = true
+
+
+            }
+            return no_err_pwd
+
+
+
+        }
+
+        $('#cnfpwd').keyup(function () {
+            cnfpwdcheck();
+        });
+        function cnfpwdcheck() {
+            let cnfpwdval = $("#cnfpwd").val();
+            let a = $("#pwd").val();
+            if (cnfpwdval != a) {
+
+                $("#btn").css("transform", "translateX(500px)")
+                no_err_cnfpwd = false
+
+
+
+            }
+            else if (cnfpwdval == "") {
+
+                $("#btn").css("display", "none")
+                no_err_cnfpwd = false
+
+            }
+            else {
+                $("#btn").css("transform", "translateX(0px)")
+                no_err_cnfpwd = true
+                return no_err_cnfpwd
+
+            }
+
+
+        }
+        $('#btn').click(function () {
+            let usercheck1 = usercheck();
+            let pwdcheck1 = pwdcheck();
+            let cnfpwdcheck1 = cnfpwdcheck();
+            console.log(pwdcheck1)
+            if (usercheck1 == true && pwdcheck1 == true && cnfpwdcheck1 == true) {
+                alert("login sucess")
+            }
+        })
+
+    })
+</script>
+
+</html>
